@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Author: Eric Lau-->
+    <!-- Student Number: A01027727 -->
+    <!-- Course: COMP 1850 -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous">
+    </script>
+	  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  
+    <title>ELau/Badminton</title>
+
+  </head>
+  <body>
+    
+    <nav class="navbar navbar-fixed-top">
+      <a id="myBrand" class="navbar-brand" href="index.html">ELau</a>
+      <div class="navContainer">
+       <i id="desktop-toggle" class="fas fa-bars"></i>
+        <ul id="mobile-toggle" class="nav">
+          <li class="nav-item active">
+            <a id="currentPage" class="nav-link" href="index.html">Home</a>
+            </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="calendar.html">Calendar</a>
+            </li>          
+          <li class="nav-item active">
+            <a class="nav-link" href="pricing.html">Pricing</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="https://shopbadmintononline.com/index.php" target="_blank">Shop</a>
+          </li>
+          <li>
+            <a class="nav-link" href="register.html">Register</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <script>
+      $('#desktop-toggle').on('click', function() {
+        $('.nav').slideToggle();
+      });
+	  </script>
+
+    <div class="container"> 
+      <div class="jumbotron">  
+        <h1><span id="elau">ELau/</span><span id="badminton">Badminton</span></h1>
+        <p>Li-Ning Sponsored Athele | Badminton Coach</p>
+        <p class="lead">
+          <a class="btn btn-primary btn-lg" href="calendar.html" role="button">View Availability</a>
+        </p>
+      </div>
+    </div>
+
+    <div class="d-flex justify-content-center">
+      <div class="card text-center lessonsCard" style="width: 120rem;">
+        <div class="card-body">
+          <h3 class="card-title lessonTitle">Lessons</h5>
+          <p class="card-text lessonText">I offer a variety of options for different athletic levels and sporting goals. If you’re looking to improve your fitness, technique and game level, you can find the support and resources you need right here! Additionally, I personally consult with every single client to understand each one’s unique goals. </p>
+          <a href="pricing.html" class="card-link">More Info</a>
+        </div>
+      </div>
+    </div>
+
+    <div id="cardContainer" class="d-flex justify-content-center">
+      <div class="card" style="width: 18rem;">
+        <img src="assets/profile_pic.jpg" alt="profile picture"class="card-img-top">
+          <div class="card-body">
+            <p class="card-text">Coach Eric Lau</p>
+          </div>
+      </div>
+
+      <div class="card" style="width: 18rem;">
+        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ycsaybcu1t8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="card-body">
+          <p class="card-text">Footage from my visit to Cordova Bay Badminton Club in Victoria, BC.</p>
+        </div>
+      </div> 
+          
+      <div class="card" style="width: 18rem;">
+        <img src="assets/medal.jpg" class="card-img-top" alt="medal">
+        <div class="card-body">
+         <p class="card-text">Badmintology 9.2 - Omnismash Open 2018 Consolation Winner</p>
+       </div>
+      </div>
+    </div>
+  </body>
+
+<footer class="page-footer bg-dark text-white-50 mt-3 text-align">
+  <div class="container-fluid text-center text-md-left">
+    <div class="row">
+      <div class="col-md-6 mt-md-0 mt-3">
+        <h5 class="text-uppercase">ELau / Badminton</h5>
+        <p>Badminton Coach</p>
+      </div>
+      <hr class="clearfix w-100 d-md-none pb-3">
+      <div class="col-md-3 mb-md-0 mb-3">
+        <h5 class="text-uppercase">Links</h5>
+        <ul class="list-unstyled">
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="calendar.html">Calendar</a>
+          </li>
+          <li>
+            <a href="pricing.html">Pricing</a>
+          </li>
+          <li>
+            <a href="https://shopbadmintononline.com/index.php" target="_blank">Shop</a>
+          </li>
+          <li>
+            <a href="register.html">Register</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-md-3 mb-md-0 mb-3">
+        <h5 class="text-uppercase">Contact Info</h5>
+        <ul class="list-unstyled">
+          <li>
+            <p>Eric Lau</p>
+          </li>
+          <li>
+            <p>12345 Something Street, Richmond BC</p>
+          </li>
+          <li>
+            <p><a ref="mailto:someone@example.com">someone@example.com</a></p>
+          </li>
+          <li>
+            <p>(604) 123-4567</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="footer-copyright text-center py-3">
+    <p>Posted by: Eric Lau © 2019</a>
+  </div>
+</footer>
+</html>
